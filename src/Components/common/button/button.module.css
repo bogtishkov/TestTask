@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 64px;
+  border-radius: 48px;
+  font-family: "Inter";
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.container:hover {
+    opacity: 90%;
+    transition: opacity .3s;
+    cursor: pointer;
+}
+
+.primary {
+  background: #7f56d9;
+}
+
+.outline {
+    border: 2px solid #FFF;
+}
+
+.destructive {
+    background: #FF5156;
+}
+
+.ghost {
+    background: transparent;
+}
+
+.elevated {
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05)
+}
+
+.medium {
+    padding: 16px 62px;
+}
+
+.large {
+    padding: 24px 62px;
+}
+

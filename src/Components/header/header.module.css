@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 0 8%;
+}
+
+.headerSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}

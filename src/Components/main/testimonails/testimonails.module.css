@@ -1,0 +1,146 @@
+.container {
+  display: grid;
+  height: 1000px;
+  width: 100%;
+  align-items: start;
+  justify-content: center;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 10% 8%;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.title h1 {
+  color: #fff;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 100% */
+  letter-spacing: -0.5px;
+}
+
+.infoBox {
+  display: grid;
+  width: 1000px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: #381d74;
+  padding: 0 10%;
+}
+
+.aboutDev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 120px;
+  padding: 0 5%;
+}
+
+.aboutAdam {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.textInfoAdam {
+  display: grid;
+}
+
+.textInfoAdam h5 {
+  color: #d9ecff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+}
+
+.textInfoAdam p {
+  color: #d9ecff;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+
+.container hr {
+  width: 796px;
+  height: 1px;
+}
+
+.textInfoBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 128px;
+}
+
+.textInfoBox p {
+  color: #b0b0d1;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.arrowContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.people {
+    position: absolute;
+}
+
+.person0 {
+    position: relative;
+    left: 200px;
+    top: 240px;
+}
+
+.person1 {
+    position: relative;
+    top: 340px;
+}
+
+.person2 {
+    position: relative;
+    top: 490px;
+    left: 60px;
+}
+
+.person3 {
+    position: relative;
+    left: 1090px;
+    bottom: 170px;
+}
+
+.person4 {
+    position: relative;
+    left: 1230px;
+    top: 230px;
+    width: 70px;
+    height: 50px;
+}
+
+.person5 {
+    position: relative;
+    left: 1270px;
+    top: 30px;
+    width: 70px;
+    height: 50px;
+}

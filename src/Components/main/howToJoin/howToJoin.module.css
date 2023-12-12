@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 0 15%;
+  background: rgba(55, 38, 93, 0.43);
+}
+
+.textSection {
+  display: grid;
+  gap: 60px;
+}
+
+.textSection h1 {
+  color: #fff;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 114.286% */
+}
+
+.textSection span {
+  color: #bda0ff;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.textSection p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+
+.buttonSection {
+    display: grid;
+    gap: 46px;
+}
+
+

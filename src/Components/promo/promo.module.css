@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+}
+
+.vectorCircleImg {
+  padding-top: 70px;
+}
+
+.textContainer {
+  display: grid;
+  width: 697px;
+  height: 500px;
+  padding-left: 70px;
+  gap: 60px;
+  padding-top: 60px;
+}
+
+.mainTextContainer {
+  width: 657px;
+  height: 325px;
+  flex-shrink: 0;
+}
+
+.mainTextContainer span {
+  color: #bea0ff;
+  font-family: Caladea;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  letter-spacing: -0.5px;
+}
+
+.mainTextContainer h1 {
+  color: #fff;
+  font-family: Caladea;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110px;
+  letter-spacing: -0.5px;
+}
+
+.pluses {
+  padding-left: 400px;
+  margin-top: -70px;
+}
+
+.infoText {
+  width: 798px;
+}
+
+.infoText h3 {
+  color: #b0b0d1;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+

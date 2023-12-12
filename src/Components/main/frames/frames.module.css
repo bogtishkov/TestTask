@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 0;
+}
+
+.startFrame {
+    width: 300px;
+}
+
+.endFrame {
+    height: 300px;
+}

@@ -1,0 +1,10 @@
+.navButtons {
+  display: flex;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 60px */
+  gap: 30px;
+}
+
+.headerButton {
+  color: var(--gray-white, #fff);
+  font-family: "Inter";
+}

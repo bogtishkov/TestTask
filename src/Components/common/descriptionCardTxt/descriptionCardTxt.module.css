@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+.textContainer {
+  display: grid;
+  gap: 46px;
+}
+
+.titleInfo {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+.quantityLessons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.quantityLessons p {
+  color: #d9ecff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.desingButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 17.5px;
+  background: rgba(218, 218, 247, 0.22);
+  width: 105px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+.desingButton button {
+  color: #d9ecff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.textInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d9ecff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 133.333% */
+}

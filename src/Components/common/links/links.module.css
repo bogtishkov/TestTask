@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 0 2%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 80px;
+  flex-shrink: 0;
+  gap: 10px;
+  padding-left: 5px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 5%;
+}
+
+.wrapper p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 100% */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: #7f56d9;
+}

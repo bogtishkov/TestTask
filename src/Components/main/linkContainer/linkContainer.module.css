@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    align-items: center;    
+}
+
+.sectionOne {
+    display: flex;
+}
+
+.sectionTwo {
+    display: flex;
+}

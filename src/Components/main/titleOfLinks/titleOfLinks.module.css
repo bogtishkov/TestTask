@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 0 8%;
+}
+
+.container h1 {
+  color: #fff;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 100% */
+  letter-spacing: -0.5px;
+}
+
+.container span {
+  color: #bea0ff;
+  font-family: Caladea;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.5px;
+}

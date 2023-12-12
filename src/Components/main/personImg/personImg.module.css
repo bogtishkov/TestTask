@@ -1,0 +1,17 @@
+.containerImg {
+    height: 810px;
+    width: 557px;
+    position: relative;
+    z-index: 2;
+  }
+
+.personImg {
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    z-index: -1;
+}

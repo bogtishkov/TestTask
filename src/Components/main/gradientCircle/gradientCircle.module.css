@@ -1,0 +1,12 @@
+.gradientCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 425px;
+    height: 425px;
+    border-radius: 425px;
+    top: -64px;
+    left: -64px;
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+  }

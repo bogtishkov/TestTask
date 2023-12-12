@@ -1,0 +1,33 @@
+.container {
+  width: 697px;
+  height: 150px;
+}
+
+.searchPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10px;
+  gap: 20px;
+  width: 700px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50px;
+}
+
+.magnifier {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 33px;
+  gap: 15px;
+}
+
+.textInPanel {
+  color: #667085;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

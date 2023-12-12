@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  height: 125px;
+  width: 100%;
+  align-items: center;
+  /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+  padding: 168px 0;
+}
+
+.secondaryNav {
+  display: flex;
+  width: 77%;
+  align-items: center;
+}
+
+.popularCourses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 300px;
+  height: 57px;
+  flex-shrink: 0;
+}
+
+.popularCourses h1 {
+  color: #fff;
+  font-family: Caladea;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 100% */
+  letter-spacing: -0.5px;
+}
+
+.popularCourses span {
+  color: #bea0ff;
+  font-family: Caladea;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.5px;
+}

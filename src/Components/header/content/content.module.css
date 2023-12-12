@@ -1,0 +1,30 @@
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+}
+
+.mainLogo {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.headerLogoText {
+  display: flex;
+  font-family: "Caladea";
+  font-size: 40px;
+  color: #d9ecff;
+}
+
+.bookMark {
+  padding: 10px;
+  margin-top: 0;
+}
+
+

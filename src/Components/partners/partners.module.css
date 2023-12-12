@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 166px;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.wrapperContainer {
+  display: flex;
+  width: 100%;
+}
+
+
+.gradientCircle {
+  position: absolute;
+  top: 810px;
+  left: 60px;
+  width: 409px;
+  height: 409px;
+  flex-shrink: 0;
+  border-radius: 409px;
+  background: rgba(61, 92, 255, 0.2);
+  filter: blur(150px);
+}
+
+.vectorWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.partnersImg {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  padding: 0 30px;
+  gap: 40px;
+  width: 250px;
+}
