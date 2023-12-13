@@ -38,3 +38,24 @@
   font-weight: 400;
   line-height: 28px; /* 140% */
 }
+
+
+@media (max-width: 920px) {
+  .container {
+      display: flex;
+      width: 150px;
+      height: 70px;
+      gap: 20px;
+    }
+
+  .circle {
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    padding: 5px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 1000px;
+    background: linear-gradient(180deg, #a988f9 0%, #6d3ae9 100%);
+  }
+}

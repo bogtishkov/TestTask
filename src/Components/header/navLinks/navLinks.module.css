@@ -8,3 +8,12 @@
   color: var(--gray-white, #fff);
   font-family: "Inter";
 }
+
+@media (max-width: 920px) {
+  .navButtons {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+  }
+  
+}

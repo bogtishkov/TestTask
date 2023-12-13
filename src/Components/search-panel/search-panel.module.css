@@ -31,3 +31,40 @@
   font-weight: 500;
   line-height: 24px;
 }
+
+@media (max-width: 920px) {
+  .container {
+    width: 300px;
+    height: 70px;
+  }
+  
+  .searchPanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 6px;
+    gap: 10px;
+    width: 400px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50px;
+  }
+  
+  .magnifier {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 33px;
+    gap: 15px;
+    width: 80px;
+  }
+  
+  .textInPanel {
+    color: #667085;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}

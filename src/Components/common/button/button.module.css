@@ -47,3 +47,34 @@
     padding: 24px 62px;
 }
 
+
+@media (max-width: 920px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 154px;
+        height: 30px;
+        border-radius: 48px;
+        font-family: "Inter";
+        color: #fff;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+      }
+
+    .medium {
+        padding: 16px 30px;
+    }
+    
+    .large {
+        padding: 24px 30px;
+    }
+}
+
+@media (min-width: 1240px) {
+    .medium {
+        padding: 16px 46px;
+    }
+}

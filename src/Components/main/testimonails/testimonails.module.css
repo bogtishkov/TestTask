@@ -97,50 +97,222 @@
 }
 
 .arrowContainer {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .people {
-    position: absolute;
+  position: absolute;
 }
 
 .person0 {
-    position: relative;
-    left: 200px;
-    top: 240px;
+  position: relative;
+  left: 200px;
+  top: 240px;
 }
 
 .person1 {
-    position: relative;
-    top: 340px;
+  position: relative;
+  top: 340px;
 }
 
 .person2 {
-    position: relative;
-    top: 490px;
-    left: 60px;
+  position: relative;
+  top: 490px;
+  left: 60px;
 }
 
 .person3 {
-    position: relative;
-    left: 1090px;
-    bottom: 170px;
+  position: relative;
+  left: 1090px;
+  bottom: 170px;
 }
 
 .person4 {
-    position: relative;
-    left: 1230px;
-    top: 230px;
-    width: 70px;
-    height: 50px;
+  position: relative;
+  left: 1230px;
+  top: 230px;
+  width: 70px;
+  height: 50px;
 }
 
 .person5 {
+  position: relative;
+  left: 1270px;
+  top: 30px;
+  width: 70px;
+  height: 50px;
+}
+
+@media (max-width: 920px) {
+  .infoBox {
+    display: grid;
+    width: 650px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: #381d74;
+    padding: 0 10%;
+  }
+
+  .aboutDev {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 120px;
+    padding: 0 5%;
+  }
+
+  .aboutAdam {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .textInfoAdam {
+    display: grid;
+  }
+
+  .textInfoAdam h5 {
+    color: #d9ecff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 100% */
+  }
+
+  .textInfoAdam p {
+    color: #d9ecff;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+  }
+
+  .container hr {
+    width: 550px;
+    height: 1px;
+  }
+
+  .textInfoBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    height: 128px;
+  }
+
+  .textInfoBox p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+  }
+
+  .arrowContainer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .people {
+    position: absolute;
+  }
+
+  .person0 {
+    width: 70px;
     position: relative;
-    left: 1270px;
-    top: 30px;
+    left: 200px;
+    top: 250px;
+  }
+
+  .person1 {
+    width: 100px;
+    position: relative;
+    top: 350px;
+  }
+
+  .person2 {
+    width: 50px;
+    position: relative;
+    top: 490px;
+    left: 60px;
+  }
+
+  .person3 {
+    position: relative;
+    left: 680px;
+    bottom: 80px;
+  }
+
+  .person4 {
+    position: relative;
+    left: 780px;
+    top: 290px;
     width: 70px;
     height: 50px;
+  }
+
+  .person5 {
+    position: relative;
+    left: 790px;
+    top: 60px;
+    width: 70px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .people {
+    position: absolute;
+  }
+
+  .person0 {
+    width: 70px;
+    position: relative;
+    left: 200px;
+    top: 250px;
+  }
+
+  .person1 {
+    width: 100px;
+    position: relative;
+    top: 400px;
+  }
+
+  .person2 {
+    width: 50px;
+    position: relative;
+    top: 520px;
+    left: 40px;
+  }
+
+  .person3 {
+    position: relative;
+    left: 1030px;
+    bottom: 50px;
+  }
+
+  .person4 {
+    position: relative;
+    left: 1130px;
+    top: 330px;
+    width: 70px;
+    height: 50px;
+  }
+
+  .person5 {
+    position: relative;
+    left: 1150px;
+    top: 60px;
+    width: 70px;
+    height: 50px;
+  }
 }

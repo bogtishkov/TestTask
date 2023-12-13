@@ -39,3 +39,60 @@
   gap: 40px;
   width: 250px;
 }
+
+@media (max-width: 920px) {
+  .container {
+    display: flex;
+    width: 95%;
+    height: 100px;
+    align-items: center;
+    padding: 0 1%;
+  }
+  
+  .wrapperContainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  
+  .gradientCircle {
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    width: 409px;
+    height: 409px;
+    flex-shrink: 0;
+    border-radius: 409px;
+    background: rgba(61, 92, 255, 0.2);
+    filter: blur(150px);
+  }
+  
+  .vectorWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .partnersImg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    padding: 0 30px;
+    gap: 60px;
+    width: 170px;
+  }
+}
+
+
+@media (min-width: 1240px) {
+  .partnersImg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    padding: 0 30px;
+    gap: 60px;
+    width: 210px;
+  }
+}

@@ -4,3 +4,12 @@
   gap: 30px;
 }
 
+@media (max-width: 920px) {
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+

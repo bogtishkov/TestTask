@@ -52,3 +52,54 @@
     align-items: center;    
 }
 
+@media (max-width: 920px) {
+  .container {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: rgba(55, 38, 93, 0.43);
+    padding: 10% 8%;
+    gap: 80px;
+  }
+  
+  .person {
+    width: 300px;
+  }
+  
+  .textInfo {
+    display: grid;
+    gap: 15px;
+    width: 200px;
+  }
+  
+  .textInfo h2 {
+    color: #fff;
+    font-family: Caladea;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 114.286% */
+    letter-spacing: -0.5px;
+  }
+  
+  .textInfo span {
+    color: #bda0ff;
+    font-family: Caladea;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+  }
+  
+  .textInfo p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 181.818% */
+  }
+}

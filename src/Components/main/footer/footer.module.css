@@ -153,3 +153,154 @@
   font-weight: 500;
   line-height: 25px; /* 138.889% */
 }
+
+@media (max-width: 920px) {
+  .container {
+    display: flex;
+    height: 360px;
+    width: 100%;
+    align-items: center;
+    /* Todo: если расширение от их ширины, то использовать медиа квери 16% */
+    padding: 0 5%;
+    gap: 30px;
+  }
+
+  .logoAndText {
+    display: grid;
+    gap: 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .logo h1 {
+    color: #d9ecff;
+    font-family: Caladea;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 83.333% */
+  }
+  
+  .textInfo {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+  }
+  
+  .quickLinks {
+    display: grid;
+    height: 150px;
+    gap: 40px;
+  }
+  
+  .quickLinks h5 {
+    color: #fff;
+    text-align: center;
+    font-family: Caladea;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 96% */
+  }
+  
+  .aboutAndBlog {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .aboutAndBlog p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+  }
+  
+  .courseAndContact {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .courseAndContact p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+  }
+  
+  .contactUs {
+    display: grid;
+    height: 150px;
+    gap: 40px;
+  }
+  
+  .contactUs h5 {
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    text-align: center;
+    font-family: Caladea;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 96% */
+  }
+  
+  .phone {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 100% */
+  }
+  
+  .mail {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mail p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 100% */
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .adress {
+    display: flex;
+    align-items: center;
+  }
+  
+  .adress p {
+    color: #b0b0d1;
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 138.889% */
+  }
+}
